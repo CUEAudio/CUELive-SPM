@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "CUELive",
-            targets: ["CUELiveWrapper", "CUEBluetooth", "engine", "TrueTime", "MQTTClient", "SocketRocket"]
+            targets: ["CueLightShow", "CUELiveWrapper", "CUEBluetooth", "engine", "TrueTime", "MQTTClient", "SocketRocket"]
         ),
     ],
     dependencies: [
@@ -28,6 +28,11 @@ let package = Package(
              name: "CUELive",
              url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.9.11/CUELive.xcframework.zip",
              checksum: "eba0553b9af0a32363e30250d93695d824f1999f734ebebc1bbc3ac4c027a974"
+         ),
+        .binaryTarget(
+             name: "CueLightShow",
+             url: "https://s3.amazonaws.com/swift-package-manager/binaries/CueLightShow/0.0.14/CueLightShow.xcframework.zip",
+             checksum: "b744b8f4f6c686c1bd9daecf44cb623f95e92cff9d1c69f081c2e896459c5356"
          ),
         .binaryTarget(
             name: "CUEBluetooth",
