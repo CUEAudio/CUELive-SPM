@@ -25,10 +25,10 @@ let package = Package(
             path: "CUELiveWrapper"
         ),
         .binaryTarget(
-            name: "CUELive",
-            url: "https://s3.amazonaws.com/swift-package-manager/CUELive/3.7.7/CUELive-framework.zip",
-            checksum: "b36df4bac2be0149b7d3d01f0e07540b80f0d949e22c35d3b22cb3110653a7dc"
-        ),
+             name: "CUELive",
+             url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.9.11/CUELive.xcframework.zip",
+             checksum: "eba0553b9af0a32363e30250d93695d824f1999f734ebebc1bbc3ac4c027a974"
+         ),
         .binaryTarget(
             name: "CUEBluetooth",
             url: "https://s3.amazonaws.com/swift-package-manager/CUEBluetooth/0.0.12/CUEBluetooth.0.0.12.xcframework.zip",
