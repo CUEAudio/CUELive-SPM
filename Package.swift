@@ -41,8 +41,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "engine",
-            url: "https://s3.amazonaws.com/swift-package-manager/engine/1.46.7/engine.1.46.7.xcframework.zip",
-            checksum: "ee1cb50708902f98f1a47dda846b5b188535487a2b39ac837e57ddfde6297e59"
+            url: "https://s3.amazonaws.com/swift-package-manager/engine/1.52.0/engine.xcframework.zip",
+            checksum: "96e201451e7035c596efd15a488c9d3c9a5bacd8992b1ead7a2ade24d53ff329"
         ),
         .binaryTarget(
             name: "TrueTime",
