@@ -10,7 +10,7 @@ import PackageDescription
 let package = Package(
     name: "CUELive",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(
