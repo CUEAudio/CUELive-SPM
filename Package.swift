@@ -32,8 +32,8 @@ let package = Package(
         ),
 		.binaryTarget(
 			name: "CUELive",
-			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.9.11/CUELive.3.9.11.xcframework.zip",
-			checksum: "e20892a9f75e208ba88ca35b3adfb90b2e6d2db0bebaf5134b2fea6d8569a1d4"
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.9.12/CUELive.3.9.12.xcframework.zip",
+			checksum: "cbdf76522ad9d971a2d7bbbea28be989351ed679ab888f0a7f77a3785289287d"
 		),
         .binaryTarget(
              name: "CueLightShow",
