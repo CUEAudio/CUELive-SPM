@@ -15,16 +15,14 @@ let package = Package(
     products: [
         .library(
             name: "CUELive",
-            targets: ["CUEBluetooth", "engine"]
+            targets: ["CUELive", "CUEBluetooth", "engine"]
         ),
-    ],
-    dependencies: [
     ],
     targets: [
 		.binaryTarget(
 			name: "CUELive",
-			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/0.3.9.12-dynfmwk-trial7/CUELive.0.3.9.12-dynfmwk-trial7.xcframework.zip",
-			checksum: "015ffaffe7b21d5ba7429d7957417df2c9709a5a666390f0605981d709d8735c"
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/0.3.9.12-dynfmwk-trial8/CUELive.0.3.9.12-dynfmwk-trial8.xcframework.zip",
+			checksum: "6440b00f85b29763f513efe4c76e9c7232a51b894fcf087a8bc461d3de71bce1"
 		),
 		.binaryTarget(
 			name: "CUEBluetooth",
