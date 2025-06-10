@@ -21,8 +21,8 @@ let package = Package(
     targets: [
 		.binaryTarget(
 			name: "CUELive",
-			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.10.3/CUELive.3.10.3.xcframework.zip",
-			checksum: "3c425271d91795fe22264e44b56f9b1954c05ec7c417553212182ef6b4a481ad"
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.11.1/CUELive.3.11.1.xcframework.zip",
+			checksum: "a898b5ff535356d90e488046d5587ef86ed8f027985b6ed897259abb05bfcdeb"
 		),
 		.binaryTarget(
 			name: "CUEBluetooth",
