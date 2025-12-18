@@ -21,18 +21,18 @@ let package = Package(
     targets: [
 		.binaryTarget(
 			name: "CUELive",
-			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.11.5/CUELive.3.11.5.xcframework.zip",
-			checksum: "19aafa77c51ced934260c24bfcd2c2b598ffd25a4d440d4e2778e82e5451c233"
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUELive/3.11.6/CUELive.3.11.6.xcframework.zip",
+			checksum: "b785e965afb6c24bb0ae634e440c745ac143867bf1a5d1f3476d7d0a2f10501d"
 		),
 		.binaryTarget(
 			name: "CUEBluetooth",
-			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUEBluetooth/0.0.14/CUEBluetooth.0.0.14.xcframework.zip",
-			checksum: "000140cace70ff115c40792e6585f52b21e8499dc0f5299126db3b8384291b6c"
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/CUEBluetooth/0.0.17/CUEBluetooth.0.0.17.xcframework.zip",
+			checksum: "3937a448be41f69b82f1376a4bd6a965dd023aae58102d3cd827a544b2fa47c4"
 		),
 		.binaryTarget(
 			name: "engine",
-			url: "https://s3.amazonaws.com/swift-package-manager/binaries/engine/1.52.0/engine.1.52.0.xcframework.zip",
-			checksum: "34b1d9d08c0792c4796f345c985a8457ccbfd60b16164de2edfe8ae64e17873c"
+			url: "https://s3.amazonaws.com/swift-package-manager/binaries/engine/1.69.1/engine.1.69.1.xcframework.zip",
+			checksum: "e91cd98f9560c25a4129c614d19c10103cb61ba4b3acc913f202801f5793e382"
 		)
 	]
 )
